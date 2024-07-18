@@ -1,6 +1,5 @@
 <div align="center" style="background-color: #E0E0E0; padding: 20px; border-radius: 10px;">
-  <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow" width="140" height="140" style="border-radius:50%; margin-right: 20px; float: left;">
-  <h3 style="margin-bottom: 0;"
+  <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow" width="175" height="175" style="border-radius:50%; margin-right: 20px; float: left;">
   <p style="margin-top: 0;">Machine Learning Engineer and Data Scientist</p>
 </div>
 <br clear="left"/>
