@@ -1,6 +1,9 @@
-<div align="center" style="background-color: #E0E0E0; padding: 20px; border-radius: 10px;">
-  <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow" width="175" height="175" style="border-radius:50%; margin-right: 20px; float: left;">
-  <p style="margin-top: 0;">Machine Learning Engineer and Data Scientist</p>
+<div align="center" style="background-color: #E0E0E0; padding: 20px; border-radius: 10px; display: flex; align-items: center;">
+  <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow" width="175" height="175" style="border-radius:50%; margin-right: 20px;">
+  <div>
+    <h3 style="margin-bottom: 0;">Sebastian Algharaballi-Yanow</h3>
+    <p style="margin-top: 0;">Machine Learning Engineer and Data Scientist</p>
+  </div>
 </div>
 <br clear="left"/>
 
