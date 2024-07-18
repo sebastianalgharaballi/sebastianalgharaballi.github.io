@@ -1,6 +1,5 @@
 <div align="center">
   <img align="left" src="https://imgur.com/d8Q1HSl" alt="Sebastian Algharaballi-Yanow" width="100" style="border-radius:50%; margin-right: 20px;">
-  <h1>Sebastian Algharaballi-Yanow</h1>
   <h3>Machine Learning Engineer and Data Scientist</h3>
 </div>
 
