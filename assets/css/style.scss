@@ -1,0 +1,30 @@
+@import "{{ site.theme }}";
+
+.page-header {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  position: relative;
+}
+
+.page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at top left, rgba(246,211,101,0.8) 0%, rgba(253,160,133,0) 60%),
+    radial-gradient(circle at bottom right, rgba(253,160,133,0.8) 0%, rgba(246,211,101,0) 60%);
+  mix-blend-mode: overlay;
+}
+
+.project-name {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #f6d365;
+}
