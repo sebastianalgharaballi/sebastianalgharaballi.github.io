@@ -3,8 +3,9 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  background: linear-gradient(120deg, #f6d365 0%, #2ebf91 100%);
+  background: linear-gradient(120deg, #f8d3a2 0%, #1e5799 100%);
   position: relative;
+  padding: 3rem 6rem;
 }
 
 .page-header::before {
@@ -15,27 +16,46 @@
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at top left, rgba(246,211,101,0.8) 0%, rgba(46,191,145,0) 70%),
-    radial-gradient(circle at bottom right, rgba(46,191,145,0.8) 0%, rgba(246,211,101,0) 70%);
+    radial-gradient(circle at top left, rgba(248,211,162,0.8) 0%, rgba(30,87,153,0) 70%),
+    radial-gradient(circle at bottom right, rgba(30,87,153,0.8) 0%, rgba(248,211,162,0) 70%);
   mix-blend-mode: overlay;
 }
 
 .project-name {
-  position: relative;
-  z-index: 1;
+  font-size: 3.25rem;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  color: #2ebf91;
-}
-
-.page-header .project-name {
-  color: #ffffff;
-}
-
-.page-header .project-tagline {
-  color: #f0f0f0;
+.project-tagline {
+  font-size: 1.25rem;
+  font-weight: normal;
   opacity: 0.9;
+  color: #f0f0f0;
+  margin-bottom: 2rem;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #1e5799;
+}
+
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 5rem 6rem;
+  }
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em) {
+  .page-header {
+    padding: 3rem 4rem;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
 }
