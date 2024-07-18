@@ -4,4 +4,4 @@ title: Sebastian Algharaballi-Yanow
 show_downloads: False
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-- jekyll-remote-theme 
+- jekyll-remote-theme
