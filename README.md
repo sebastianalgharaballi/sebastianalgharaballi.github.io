@@ -1,17 +1,19 @@
-<img src="https://drive.google.com/uc?export=view&id=1AS7OVaAItfKD_Qp8VOw1fDp2Cnimdwjf" alt="Sebastian Algharaballi-Yanow" width="200"/>
+<div align="center">
+  <img align="left" src="https://imgur.com/d8Q1HSl" alt="Sebastian Algharaballi-Yanow" width="100" style="border-radius:50%; margin-right: 20px;">
+  <h1>Sebastian Algharaballi-Yanow</h1>
+  <h3>Machine Learning Engineer and Data Scientist</h3>
+</div>
 
-## Machine Learning Engineer and Data Scientist
+<br clear="left"/>
 
 As a Machine Learning Engineer and Data Scientist, I blend creativity with analytical rigor to solve complex data-driven problems. My journey from a young storyteller and basketball enthusiast to a tech-savvy innovator has shaped my unique approach to data science. I'm passionate about creating and fine-tuning ML and AI models, leveraging data for decision-making, and applying these tools to projects that align with my diverse interests. Currently honing my skills as a Data Science Master's student at UC Irvine and as a Machine Learning Engineer at MoodMe, I thrive on challenges that allow me to efficiently solve problems from the ground up, always infusing my work with the same creativity and precision that has driven me since childhood.
-
-[Rest of the content remains the same]
 
 ### Education
 UC Irvine – Master's of Data Science
 September 2023 - December 2024.
 
 UC San Diego - Cognitive Science: Machine Learning & Neural Computation (BS) 
-September 2020 - June 2023. Cum Laude. GPA of 3.876.
+September 2020 - June 2023.
 
 UC San Diego Extension - Machine Learning Methods (Certification)
 June 2022 - June 2023.
@@ -40,23 +42,23 @@ October 2023 - Present
 September 2022 - Present
 - Attended NCAA/Pro sporting events (mens and women's basketball, baseball, men's and women's volleyball, soccer) and recorded game-related statistics (using company software).
 - Communicated with supervisor on-site regarding the specifics of data.
-- Successfully operated 200+ games with 5-star performance.
+- Successfully operated 230+ games with 5-star performance.
 
-### Featured Data Science Projects
+### Featured Data Science Projects (will add visualizations to this section)
 #### Autoencoder Anomaly Analysis for NBA Players:
-- Problem: Delved deeper into understanding the fluctuations in NBA player game-to-game performances, particularly focusing on Kobe Bryant's 2008-2009 season.
-- Action: Created an autoencoder model in an effort to uncover any non-linear relationships and nuances indicative of performance trends.
-- Result: Achieved 100% evaluation metrics (precision, recall, F1-score) when labeling Bryant's games as above or below average, potentially discovering factors that contributed to a range of performances. 
+- Delved deeper into understanding the fluctuations in NBA player game-to-game performances, particularly focusing on Kobe Bryant's 2008-2009 season.
+- Created an autoencoder model in an effort to uncover any non-linear relationships and nuances indicative of performance trends.
+- Achieved 100% evaluation metrics (precision, recall, F1-score) when labeling Bryant's games as above or below average, potentially discovering factors that contributed to a range of performances. 
 
 #### Advanced NBA Referee Analysis:
-- Problem: Explored decision-making patterns of NBA referees to enhance fairness and integrity of the sport. Aimed to identify areas where officiating can be optimized.
-- Action: Engineered a 1410x23 data frame that utilized cleaned referee statistics. Created advanced neural network models (three FNNs and one CNN) for comprehensive analysis.
-- Result: Obtained 92% test accuracy through innovative CNN application, confirming the effectiveness of the approach in identifying patterns and areas of improvement in referee standards.
+- Explored decision-making patterns of NBA referees to enhance fairness and integrity of the sport. Aimed to identify areas where officiating can be optimized.
+- Engineered a 1410x23 data frame that utilized cleaned referee statistics. Created advanced neural network models (three FNNs and one CNN) for comprehensive analysis.
+- Obtained 92% test accuracy through innovative CNN application, confirming the effectiveness of the approach in identifying patterns and areas of improvement in referee standards.
 
 #### Predicting CCRB's Outcome on Civilian Complaints
-- Problem: Addressed predicting officer remediation amid the complexity of police misconduct complaints.
-- Action: Extracted pivotal data features using the "Eli5" Python library, directing focus on variables affecting disciplinary outcomes. Developed and evaluated logistic regression, K-NN, Random Forests, and Gradient Boosting models (using F1-score).
-- Result: Unveiled logistic regression as the optimum predictive algorithm, enabling accurate forecasts of officer remediation outcomes.
+- Addressed predicting officer remediation amid the complexity of police misconduct complaints.
+- Extracted pivotal data features using the "Eli5" Python library, directing focus on variables affecting disciplinary outcomes. Developed and evaluated logistic regression, K-NN, Random Forests, and Gradient Boosting models (using F1-score).
+- Unveiled logistic regression as the optimum predictive algorithm, enabling accurate forecasts of officer remediation outcomes.
 
 #### R Case Study
 - Investigated the prevailing trends in tobacco usage among American youth.
