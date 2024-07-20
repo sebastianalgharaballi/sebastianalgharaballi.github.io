@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const header = document.querySelector('.page-header');
   const headerSteps = document.querySelectorAll('.header-step');
   const mainContent = document.querySelector('.main-content');
-  
+
   function handleScroll() {
     const scrollPosition = window.scrollY;
     const windowHeight = window.innerHeight;
@@ -28,7 +28,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Move main content
-    mainContent.style.transform = `translateY(${Math.max(0, scrollPosition - windowHeight * 2)}px)`;
+    if (scrollPosition > windowHeight * 2) {
+      mainContent.style.transform = `translateY(${Math.max(0, scrollPosition - windowHeight * 3)}px)`;
+    } else {
+      mainContent.style.transform = 'translateY(0)';
+    }
   }
 
   window.addEventListener('scroll', handleScroll);
