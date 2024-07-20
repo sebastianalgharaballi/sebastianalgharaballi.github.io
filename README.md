@@ -4,6 +4,11 @@ As a Machine Learning Engineer and Data Scientist, I blend creativity with analy
 
 I'm currently attending UC Irvine in their Master's of Data Science program. I will be graduating in December 2024. Before UC Irvine, I graduated from UC San Diego with a Bachelor's of Science in Machine Learning and Neural Computation, housed within their Cogntive Science department. While at UC San Diego, I also obtained a certification in Machine Learning Methods from their Extension program.
 
+<div align="center">
+  <img src="uci_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+  <img src="ucsd_pic.jpeg" alt="Description of image 2" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
+
 
 ### Experience
 #### Scale AI - Generative Artificial Intelligence Prompt Engineer 
