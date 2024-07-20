@@ -35,7 +35,8 @@ body, html {
 }
 
 .header-content {
-  height: 300vh;
+  height: 300vh; /* This creates scrollable space */
+  position: relative;
 }
 
 .header-step {
@@ -47,9 +48,17 @@ body, html {
   text-align: center;
   opacity: 0;
   transition: opacity 0.5s ease;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
+}
+
+.header-step:nth-child(2) {
+  top: 100vh;
+}
+
+.header-step:nth-child(3) {
+  top: 200vh;
 }
 
 .project-name, .header-step h2 {
@@ -64,9 +73,14 @@ body, html {
   position: relative;
   z-index: 1;
   background: #ffffff;
-  margin-top: 300vh;
   padding-top: 2rem;
   min-height: 100vh;
+}
+
+.main-content-wrapper {
+  position: relative;
+  z-index: 2;
+  padding-top: 300vh; /* This pushes the main content below the header steps */
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
