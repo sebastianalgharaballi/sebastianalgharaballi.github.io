@@ -14,7 +14,7 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 300vh;
+  height: 100vh;
   z-index: 1000;
   will-change: opacity;
   transform: translateZ(0);
@@ -50,6 +50,9 @@ body, html {
   text-align: center;
   opacity: 0;
   transition: opacity 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .project-name, .header-step h2 {
@@ -61,10 +64,10 @@ body, html {
 }
 
 .main-content {
-  padding-top: 300vh;
   position: relative;
   z-index: 1;
   background: #ffffff;
+  margin-top: 300vh;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
