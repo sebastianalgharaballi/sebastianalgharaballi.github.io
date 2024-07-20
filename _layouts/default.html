@@ -2,8 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-
-{% seo %}
+    {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +24,19 @@
       </div>
     </header>
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      <div class="profile-section">
+        <div class="profile-image">
+          <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow">
+          <p>Let's talk!</p>
+          <div class="profile-links">
+            <a href="#" class="btn">LinkedIn</a>
+            <a href="#" class="btn">Resume (PDF)</a>
+          </div>
+        </div>
+        <div class="intro-text">
+          {{ content }}
+        </div>
+      </div>
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
