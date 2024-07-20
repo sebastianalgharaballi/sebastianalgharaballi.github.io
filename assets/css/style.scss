@@ -14,12 +14,12 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 300vh; // Increased to accommodate three steps
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  transition: opacity 0.3s ease; // Optimized transition
+  transition: opacity 0.3s ease;
   z-index: 1000;
   will-change: opacity;
   transform: translateZ(0);
@@ -38,24 +38,33 @@ body, html {
   mix-blend-mode: overlay;
 }
 
-.project-name {
-  font-size: 5rem;
+.header-content {
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-step {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.project-name, .header-step h2 {
+  font-size: 3rem;
   font-weight: bold;
   margin: 0;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.project-tagline {
-  font-size: 1.5rem;
-  font-weight: normal;
-  opacity: 0.9;
-  color: #f0f0f0;
-  margin-top: 1rem;
-}
-
 .main-content {
-  padding-top: 100vh;
+  padding-top: 300vh; // Increased to accommodate three steps
   position: relative;
   z-index: 1;
   background: #ffffff;
@@ -68,22 +77,14 @@ body, html {
 }
 
 @media screen and (max-width: 64em) {
-  .project-name {
-    font-size: 4rem;
-  }
-  
-  .project-tagline {
-    font-size: 1.25rem;
+  .project-name, .header-step h2 {
+    font-size: 2.5rem;
   }
 }
 
 @media screen and (max-width: 42em) {
-  .project-name {
-    font-size: 3rem;
-  }
-  
-  .project-tagline {
-    font-size: 1rem;
+  .project-name, .header-step h2 {
+    font-size: 2rem;
   }
 }
 
@@ -96,6 +97,6 @@ body, html {
 // Optimize mobile performance
 @media screen and (max-width: 42em) {
   .page-header, .main-content {
-    will-change: auto; // Reset will-change to improve mobile performance
+    will-change: auto;
   }
 }
