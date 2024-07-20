@@ -1,39 +1,36 @@
 document.addEventListener('DOMContentLoaded', function() {
   const header = document.querySelector('.page-header');
-  const mainContent = document.querySelector('.main-content');
   const headerSteps = document.querySelectorAll('.header-step');
-  let lastScrollPosition = 0;
-  let ticking = false;
-
+  const mainContent = document.querySelector('.main-content');
+  
   function handleScroll() {
-    lastScrollPosition = window.scrollY;
-    if (!ticking) {
-      window.requestAnimationFrame(() => {
-        updateHeaderOpacity(lastScrollPosition);
-        updateStepVisibility(lastScrollPosition);
-        ticking = false;
-      });
-      ticking = true;
-    }
-  }
-
-  function updateHeaderOpacity(scrollPosition) {
+    const scrollPosition = window.scrollY;
     const windowHeight = window.innerHeight;
-    const totalHeaderHeight = windowHeight * 3;
-    const opacity = Math.max(0, Math.min(1, 1 - ((scrollPosition - (totalHeaderHeight - windowHeight)) / windowHeight)));
-    header.style.opacity = opacity;
-    header.style.pointerEvents = opacity > 0.1 ? 'auto' : 'none';
-  }
 
-  function updateStepVisibility(scrollPosition) {
-    const windowHeight = window.innerHeight;
+    // Update visibility of each step
     headerSteps.forEach((step, index) => {
       const stepStart = index * windowHeight;
       const stepEnd = (index + 1) * windowHeight;
-      const visibility = Math.max(0, Math.min(1, 1 - Math.abs((scrollPosition - (stepStart + windowHeight / 2)) / windowHeight)));
-      step.style.opacity = visibility;
+      
+      if (scrollPosition >= stepStart && scrollPosition < stepEnd) {
+        step.style.opacity = 1;
+      } else {
+        step.style.opacity = 0;
+      }
     });
+
+    // Fade out header after last step
+    if (scrollPosition > windowHeight * 2) {
+      const fadeOutProgress = (scrollPosition - windowHeight * 2) / windowHeight;
+      header.style.opacity = Math.max(0, 1 - fadeOutProgress);
+    } else {
+      header.style.opacity = 1;
+    }
+
+    // Move main content
+    mainContent.style.transform = `translateY(${Math.max(0, scrollPosition - windowHeight * 2)}px)`;
   }
 
-  window.addEventListener('scroll', handleScroll, { passive: true });
+  window.addEventListener('scroll', handleScroll);
+  handleScroll(); // Initial call to set correct state
 });
