@@ -14,12 +14,7 @@ body, html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 300vh; // Increased to accommodate three steps
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  transition: opacity 0.3s ease;
+  height: 300vh;
   z-index: 1000;
   will-change: opacity;
   transform: translateZ(0);
@@ -42,7 +37,7 @@ body, html {
   height: 300vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -53,6 +48,8 @@ body, html {
   align-items: center;
   width: 100%;
   text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 .project-name, .header-step h2 {
@@ -64,12 +61,10 @@ body, html {
 }
 
 .main-content {
-  padding-top: 300vh; // Increased to accommodate three steps
+  padding-top: 300vh;
   position: relative;
   z-index: 1;
   background: #ffffff;
-  will-change: transform;
-  transform: translateZ(0);
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
@@ -85,18 +80,5 @@ body, html {
 @media screen and (max-width: 42em) {
   .project-name, .header-step h2 {
     font-size: 2rem;
-  }
-}
-
-// Optimize paint operations
-* {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-// Optimize mobile performance
-@media screen and (max-width: 42em) {
-  .page-header, .main-content {
-    will-change: auto;
   }
 }
