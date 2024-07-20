@@ -1,11 +1,3 @@
-<div align="center" style="background-color: #E0E0E0; padding: 20px; border-radius: 10px; display: flex; align-items: center;">
-  <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow" width="175" height="175" style="border-radius:50%; margin-right: 20px;">
-  <div>
-    <p style="margin-top: 0;">Machine Learning Engineer and Data Scientist</p>
-  </div>
-</div>
-<br clear="left"/>
-
 As a Machine Learning Engineer and Data Scientist, I blend creativity with analytical rigor to solve complex data-driven problems. My journey from a young storyteller and basketball enthusiast to a tech-savvy innovator has shaped my unique approach to data science. I'm passionate about creating and fine-tuning ML and AI models, leveraging data for decision-making, and applying these tools to projects that align with my diverse interests. Currently honing my skills as a Data Science Master's student at UC Irvine and as a Machine Learning Engineer at MoodMe, I thrive on challenges that allow me to efficiently solve problems from the ground up, always infusing my work with the same creativity and precision that has driven me since childhood.
 
 ### Education
