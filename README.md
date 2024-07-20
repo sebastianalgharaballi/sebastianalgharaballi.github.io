@@ -2,7 +2,7 @@ As a Machine Learning Engineer and Data Scientist, I blend creativity with analy
 
 ### Education
 
-I'm currently attending UC Irvine in their Master's of Data Science program. I will be graduating in December 2024. Before UC Irvine, I graduated from UC San Diego with a Bachelor's of Science in Machine Learning and Neural Computation, housed within their Cogntive Science department. While at UC San Diego, I also obtained a certification in Machine Learning Methods from their Extension program.
+I'm currently attending UC Irvine in their Master's of Data Science program. I will be graduating in December 2024. Before UC Irvine, I graduated from UC San Diego with a Bachelor's of Science in Machine Learning and Neural Computation, housed within their Cognitive Science department. While at UC San Diego, I also obtained a certification in Machine Learning Methods from their Extension program.
 
 <div align="center">
   <img src="uci_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
@@ -12,10 +12,9 @@ I'm currently attending UC Irvine in their Master's of Data Science program. I w
 
 ### Experience
 #### Scale AI - Generative Artificial Intelligence Prompt Engineer 
-May 2024 - Present
-- Edited, refined, and trained ChatGPT responses to enhance accuracy and coherence in real-time conversations.
-- Applied regression modeling to predict user satisfaction scores from conversation metrics, resulting in an increase in predictive accuracy and overall model performance.
-- Analyzed OpenAI datasets and leveraged clustering techniques to identify user patterns, informing GPT-model adjustments and improved response relevancy.
+I started working for Scale AI as a freelance Gen AI Prompt Engineer in May 2024. My day-to-day work consists of editing, refining, and training open-source large language model (LLM) responses to enhance accuracy and coherence in real-time conversations. I've also had the opportunity to apply regression modeling to predict user satisfaction scores on a five-star scale from various conversation metrics, such as the overall sentiment of prompts given to the LLM. My favorite impactful moment at Scale was when I worked directly wiht OpenAI to analyze conversational datasets taken from real-world conversations their users had with ChatGPT. I leveraged clustering techniques, such as K-means and Hierarchical Agglomerative Clustering (HAC), to identify user patterns like query complexity, topic preferences, and interaction frequency. As a whole, the strategies I deployed informed GPT-model adjustments and improved response relevancy, generating new training data that will aid in improving future iterations of ChatGPT.
+
+
 
 #### MoodMe - Machine Learning Engineer & Co-Founder 
 December 2023 - Present
