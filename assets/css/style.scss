@@ -19,66 +19,83 @@ body, html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease;
+  transition: opacity 0.3s ease; // Optimized transition
   z-index: 1000;
+  will-change: opacity;
+  transform: translateZ(0);
 }
 
-   .page-header::before {
-     content: "";
-     position: absolute;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background: 
-       radial-gradient(circle at top left, rgba(255,199,142,0.8) 0%, rgba(124,185,232,0) 70%),
-       radial-gradient(circle at bottom right, rgba(124,185,232,0.8) 0%, rgba(255,199,142,0) 70%);
-     mix-blend-mode: overlay;
-   }
+.page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at top left, rgba(255,199,142,0.8) 0%, rgba(124,185,232,0) 70%),
+    radial-gradient(circle at bottom right, rgba(124,185,232,0.8) 0%, rgba(255,199,142,0) 70%);
+  mix-blend-mode: overlay;
+}
 
-   .project-name {
-     font-size: 5rem;
-     font-weight: bold;
-     margin: 0;
-     color: #ffffff;
-     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-   }
+.project-name {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
 
-   .project-tagline {
-     font-size: 1.5rem;
-     font-weight: normal;
-     opacity: 0.9;
-     color: #f0f0f0;
-     margin-top: 1rem;
-   }
+.project-tagline {
+  font-size: 1.5rem;
+  font-weight: normal;
+  opacity: 0.9;
+  color: #f0f0f0;
+  margin-top: 1rem;
+}
 
-   .main-content {
-     padding-top: 100vh;
-     position: relative;
-     z-index: 1;
-     background: #ffffff;
-   }
+.main-content {
+  padding-top: 100vh;
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  will-change: transform;
+  transform: translateZ(0);
+}
 
-   .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-     color: #7cb9e8;
-   }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #7cb9e8;
+}
 
-   @media screen and (max-width: 64em) {
-     .project-name {
-       font-size: 4rem;
-     }
-     
-     .project-tagline {
-       font-size: 1.25rem;
-     }
-   }
+@media screen and (max-width: 64em) {
+  .project-name {
+    font-size: 4rem;
+  }
+  
+  .project-tagline {
+    font-size: 1.25rem;
+  }
+}
 
-   @media screen and (max-width: 42em) {
-     .project-name {
-       font-size: 3rem;
-     }
-     
-     .project-tagline {
-       font-size: 1rem;
-     }
-   }
+@media screen and (max-width: 42em) {
+  .project-name {
+    font-size: 3rem;
+  }
+  
+  .project-tagline {
+    font-size: 1rem;
+  }
+}
+
+// Optimize paint operations
+* {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+// Optimize mobile performance
+@media screen and (max-width: 42em) {
+  .page-header, .main-content {
+    will-change: auto; // Reset will-change to improve mobile performance
+  }
+}
