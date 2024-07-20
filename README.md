@@ -1,11 +1,9 @@
 As a Machine Learning Engineer and Data Scientist, I blend creativity with analytical rigor to solve complex data-driven problems. My journey from a young storyteller and basketball enthusiast to a tech-savvy innovator has shaped my unique approach to data science. I'm passionate about creating and fine-tuning ML and AI models, leveraging data for decision-making, and applying these tools to projects that align with my diverse interests. Currently honing my skills as a Data Science Master's student at UC Irvine and as a Machine Learning Engineer at MoodMe, I thrive on challenges that allow me to efficiently solve problems from the ground up, always infusing my work with the same creativity and precision that has driven me since childhood.
 
 ### Education
-- UC Irvine – Master's of Data Science (September 2023 - December 2024).
 
-- UC San Diego - Cognitive Science (BS): Machine Learning & Neural Computation (September 2020 - June 2023).
+I'm currently attending UC Irvine in their Master's of Data Science program. I will be graduating in December 2024. Before UC Irvine, I graduated from UC San Diego with a Bachelor's of Science in Machine Learning and Neural Computation, housed within their Cogntive Science department. While at UC San Diego, I also obtained a certification in Machine Learning Methods from their Extension program.
 
-- UC San Diego Extension (Certification)- Machine Learning Methods (June 2022 - June 2023).
 
 ### Experience
 #### Scale AI - Generative Artificial Intelligence Prompt Engineer 
