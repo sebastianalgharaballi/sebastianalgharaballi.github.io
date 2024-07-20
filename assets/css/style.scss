@@ -2,10 +2,25 @@
 ---
 @import "{{ site.theme }}";
 
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .page-header {
   background: linear-gradient(120deg, #ffc78e 0%, #7cb9e8 100%);
-  position: relative;
-  padding: 3rem 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  z-index: 1000;
 }
 
 .page-header::before {
@@ -22,40 +37,48 @@
 }
 
 .project-name {
-  font-size: 3.25rem;
+  font-size: 5rem;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0.1rem;
+  margin: 0;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .project-tagline {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: normal;
   opacity: 0.9;
   color: #f0f0f0;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.main-content {
+  padding-top: 100vh;
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: #7cb9e8;
 }
 
-@media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem;
+@media screen and (max-width: 64em) {
+  .project-name {
+    font-size: 4rem;
   }
-}
-
-@media screen and (max-width: 64em) and (min-width: 42em) {
-  .page-header {
-    padding: 3rem 4rem;
+  
+  .project-tagline {
+    font-size: 1.25rem;
   }
 }
 
 @media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem;
+  .project-name {
+    font-size: 3rem;
+  }
+  
+  .project-tagline {
+    font-size: 1rem;
   }
 }
