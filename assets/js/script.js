@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Move main content
     if (scrollPosition > windowHeight * 2) {
-      mainContent.style.transform = `translateY(${Math.max(0, scrollPosition - windowHeight * 3)}px)`;
+      const translateY = Math.max(0, scrollPosition - windowHeight * 3);
+      mainContent.style.transform = `translateY(-${translateY}px)`;
     } else {
       mainContent.style.transform = 'translateY(0)';
     }
