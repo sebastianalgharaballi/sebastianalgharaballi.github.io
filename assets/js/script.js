@@ -1,21 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
   const header = document.querySelector('.page-header');
   const mainContent = document.querySelector('.main-content');
-  
+  let lastScrollPosition = 0;
+  let ticking = false;
+
   function handleScroll() {
-    const scrollPosition = window.scrollY;
-    const windowHeight = window.innerHeight;
-    
-    if (scrollPosition > windowHeight * 0.7) {
-      header.style.opacity = '0';
-      header.style.pointerEvents = 'none';
-    } else {
-      header.style.opacity = '1';
-      header.style.pointerEvents = 'auto';
+    lastScrollPosition = window.scrollY;
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        updateHeaderOpacity(lastScrollPosition);
+        ticking = false;
+      });
+      ticking = true;
     }
-    
-    mainContent.style.transform = `translateY(${Math.max(0, scrollPosition * 0.5)}px)`;
   }
-  
-  window.addEventListener('scroll', handleScroll);
+
+  function updateHeaderOpacity(scrollPosition) {
+    const windowHeight = window.innerHeight;
+    const opacity = Math.max(0, Math.min(1, 1 - (scrollPosition / (windowHeight * 0.5))));
+    header.style.opacity = opacity;
+    header.style.pointerEvents = opacity > 0.1 ? 'auto' : 'none';
+  }
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
 });
