@@ -33,11 +33,9 @@ body, html {
 }
 
 .main-content {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
   padding-top: 2rem;
-  display: flex;
-  justify-content: center;
   background: #ffffff;
 }
 
@@ -46,11 +44,12 @@ body, html {
   width: 100%;
   max-width: 1200px;
   margin-bottom: 2rem;
+  justify-content: flex-start;
 }
 
 .profile-image {
   flex: 0 0 200px;
-  margin-right: 4rem;
+  margin-right: 6rem;
   text-align: center;
 }
 
@@ -91,6 +90,10 @@ body, html {
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: #7cb9e8;
+}
+
+.site-footer {
+  display: none; /* This will hide the footer containing the GitHub Pages message */
 }
 
 @media screen and (max-width: 1024px) {
