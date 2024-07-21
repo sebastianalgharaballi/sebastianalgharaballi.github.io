@@ -62,16 +62,16 @@ body, html {
 
 .profile-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row; /* Changed from column to row */
+  justify-content: center; /* Center the buttons horizontally */
   gap: 10px;
   margin-top: 1rem;
-  margin-left: -50px; /* New line to move left */
+  margin-left: -50px; /* Keeps the left shift we added earlier */
 }
 
 .btn {
   display: inline-block;
-  width: 120px;
+  width: 80px; /* Reduced from 120px to make buttons smaller */
   padding: 0.5rem 0;
   background-color: #7cb9e8;
   color: white;
@@ -79,6 +79,7 @@ body, html {
   border-radius: 4px;
   transition: background-color 0.3s ease;
   text-align: center;
+  font-size: 0.9rem; /* Slightly smaller font size */
 }
 
 .btn:hover {
