@@ -1,6 +1,4 @@
 title: Sebastian Algharaballi-Yanow
-#logo: relative path image
-#description: text below image
 show_downloads: False
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
@@ -9,3 +7,6 @@ sass:
   style: compressed
 extras:
   - <script src="/assets/js/script.js"></script>
+markdown: kramdown
+kramdown:
+  parse_block_html: true
