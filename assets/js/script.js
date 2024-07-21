@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', handleScroll);
   handleScroll(); // Initial call to set correct state
 
-  // New code for collapsible sections
+  // Code for collapsible sections
   var coll = document.getElementsByClassName("collapsible");
   for (var i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
