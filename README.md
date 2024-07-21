@@ -26,7 +26,7 @@ The highlight of my Data Science career thusfar has been being named a Co-Founde
     .btn {
       display: inline-block;
       padding: 0.5rem 1rem;
-      width: 120px;
+      width: 180px;
       background-color: #7cb9e8;
       color: white !important;
       text-decoration: none;
@@ -34,6 +34,9 @@ The highlight of my Data Science career thusfar has been being named a Co-Founde
       transition: background-color 0.3s ease;
       text-align: center;
       margin: 0 5px;
+      white-space: normal;
+      line-height: 1.2;
+      vertical-align: top;
     }
     .btn:hover {
       background-color: #5a9bd5;
