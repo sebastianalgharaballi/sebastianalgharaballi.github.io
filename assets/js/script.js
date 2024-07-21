@@ -19,9 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // New code for collapsible sections
   var coll = document.getElementsByClassName("collapsible");
-  var i;
-
-  for (i = 0; i < coll.length; i++) {
+  for (var i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
@@ -31,5 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
         content.style.maxHeight = content.scrollHeight + "px";
       } 
     });
+    // Initialize all sections as collapsed
+    var content = coll[i].nextElementSibling;
+    content.style.maxHeight = null;
   }
 });
