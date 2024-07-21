@@ -1,20 +1,17 @@
 ---
 ---
 @import "{{ site.theme }}";
-
 body, html {
   height: 100%;
   margin: 0;
   padding: 0;
 }
-
 .page-header {
   background: linear-gradient(120deg, #ffc78e 0%, #7cb9e8 100%);
   position: relative;
   height: 300vh;
   width: 100%;
 }
-
 .header-step {
   height: 100vh;
   display: flex;
@@ -23,7 +20,6 @@ body, html {
   width: 100%;
   text-align: center;
 }
-
 .project-name, .header-step h2 {
   font-size: 3rem;
   font-weight: bold;
@@ -31,35 +27,30 @@ body, html {
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
-
 .main-content {
   max-width: 90%;
   margin: 0 auto;
   padding-top: 2rem;
   background: #ffffff;
 }
-
 .profile-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
 }
-
 .profile-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin-bottom: 1rem;
 }
-
 .profile-links {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 1rem;
 }
-
 .btn {
   display: inline-block;
   width: 80px;
@@ -72,23 +63,61 @@ body, html {
   text-align: center;
   font-size: 0.9rem;
 }
-
 .btn:hover {
   background-color: #5a9bd5;
 }
-
 .intro-text {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
-
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: #7cb9e8;
 }
-
 .site-footer {
   display: none;
+}
+
+/* New styles for collapsible sections */
+.collapsible-sections {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.section {
+  margin-bottom: 1rem;
+}
+.collapsible {
+  background-color: #7cb9e8;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.active, .collapsible:hover {
+  background-color: #5a9bd5;
+}
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -96,13 +125,11 @@ body, html {
     max-width: 95%;
   }
 }
-
 @media screen and (max-width: 64em) {
   .project-name, .header-step h2 {
     font-size: 2.5rem;
   }
 }
-
 @media screen and (max-width: 42em) {
   .project-name, .header-step h2 {
     font-size: 2rem;
