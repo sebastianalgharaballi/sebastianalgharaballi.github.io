@@ -56,12 +56,13 @@ body, html {
   align-items: center;
   gap: 10px;
   margin-top: 1rem;
+  width: 120px; /* Set a fixed width for the container */
 }
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 120px;
+  width: 100%; /* Use full width of the container */
   height: 40px;
   background-color: #7cb9e8;
   color: white;
@@ -69,6 +70,10 @@ body, html {
   border-radius: 4px;
   transition: background-color 0.3s ease;
   font-size: 16px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  padding: 0 10px; /* Add some horizontal padding */
+  text-align: center; /* Ensure text is centered */
+  line-height: 1; /* Adjust line height for vertical centering */
 }
 .btn:hover {
   background-color: #5a9bd5;
