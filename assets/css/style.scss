@@ -78,7 +78,7 @@ body, html {
   display: none;
 }
 
-/* New styles for collapsible sections */
+/* Styles for collapsible sections */
 .collapsible-sections {
   width: 100%;
   max-width: 800px;
@@ -118,6 +118,9 @@ body, html {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+.active + .content {
+  max-height: none;
 }
 
 @media screen and (max-width: 1024px) {
