@@ -122,10 +122,20 @@ body, html {
 
 .content {
   padding: 0 18px;
+  padding-top: 20px; /* Added space at the top of content area */
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: white; /* Changed to white background */
+  color: black; /* Changed to black text */
+}
+
+.content > :first-child {
+  margin-top: 10px; /* Added space for the first element in content */
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  color: black; /* Changed headings to black within content */
 }
 
 .active + .content {
