@@ -48,6 +48,7 @@ The highlight of my Data Science career thusfar has been being named a Co-Founde
 
 #### Donald Bren School of ICS - Master of Data Science Ambassador 
 October 2023 - Present
+Throughout my time at UC Irvine, I worked as a Master of Data Science Ambassador for the MDS program. A perfect way to describe this role is "being a liaison for the current student." 
 - Student representative for the MDS Program.
 - Supported the creation and development of ideas for marketing campaigns.
 - Conducted time series analysis using R's "forecast" library and Python's "statsmodels" to track and predict trends in data science master's programs across the U.S., providing valuable insights for internal program development and competitor analysis.
