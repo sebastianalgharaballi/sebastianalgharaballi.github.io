@@ -11,17 +11,16 @@ I'm currently attending UC Irvine in their Master's of Data Science program. I w
 
 
 ### Experience
-#### Scale AI - Generative Artificial Intelligence Prompt Engineer 
+#### Scale AI - Generative Artificial Intelligence Prompt Engineer (May 2024 - Present)
 I started working for Scale AI as a freelance Gen AI Prompt Engineer in May 2024. My day-to-day work consists of editing, refining, and training open-source large language model (LLM) responses to enhance accuracy and coherence in real-time conversations. I've also had the opportunity to apply regression modeling to predict user satisfaction scores on a five-star scale from various conversation metrics, such as the overall sentiment of prompts given to the LLM. My favorite impactful moment at Scale was when I worked directly wiht OpenAI to analyze conversational datasets taken from real-world conversations their users had with ChatGPT. I leveraged clustering techniques, such as K-means and Hierarchical Agglomerative Clustering (HAC), to identify user patterns like query complexity, topic preferences, and interaction frequency. As a whole, the strategies I deployed informed GPT-model adjustments and improved response relevancy, generating new training data that will aid in improving future iterations of ChatGPT.
 
+<div align="center">
+  <img src="scale_logo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
 
+#### MoodMe - Machine Learning Engineer & Co-Founder (December 2023 - Present)
+The highlight of my Data Science career thusfar has been being named a Co-Founder and Machine Learning Engineer for MoodMe, an innovative start-up company that focuses on emotional intelligence products for a wide-range of industries. I led the creation and implementation of machine learning models for unbiased emotion detection applications. More specifically, I love to tell others about my experience with developing a customized text emotion detection model (powered by a tuned version of Hugging Face's BERT) that would go on to be the backbone of our well-being diary application that helps users track and understand their emotional patterns over time. I also conducted a comprehensive benchmark of the company's face emotion, gender, age, and ethnicity detection models versus its competitors, and leveraged my analysis to enhance the in-house emotion model through techniques such as transfer learning and noise injection. This led to an immediate increase in performance across all platforms the model was deployed on!
 
-#### MoodMe - Machine Learning Engineer & Co-Founder 
-December 2023 - Present
-- Leader in the creation and implementation of machine learning models for innovative and unbiased emotion detection applications.
-- Collaborated closely with engineering and marketing teams to integrate AI-powered technologies with our services, focusing on user engagement and unique insights.
-- Successfully benchmarked and enhanced our emotion detection model through transfer learning, boosting, and noise injection, achieving a 22% increase in overall accuracy.
-- Led the development of a customized BERT text emotion detection model that is the backbone of EmotionTrak, a well-being diary that helps users track and understand their emotional patterns over time. Model achieved an F1 score of 0.89 in detecting emotions across 8 categories after analyzing over 500,000 text samples during testing.
 
 #### Donald Bren School of ICS - Master of Data Science Ambassador 
 October 2023 - Present
