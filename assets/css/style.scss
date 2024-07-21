@@ -55,7 +55,8 @@ body, html {
 }
 
 .profile-image img {
-  width: 100%;
+  width: 200px; /* Set to the original size */
+  height: 200px; /* Set to maintain aspect ratio */
   border-radius: 50%;
   margin-bottom: 1rem;
 }
