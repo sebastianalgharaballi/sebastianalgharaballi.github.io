@@ -32,8 +32,21 @@
           <a href="#" class="btn">Resume</a>
         </div>
       </div>
-      <div class="intro-text">
-        {{ content }}
+      <div class="collapsible-sections">
+        {% assign sections = content | split: '### ' %}
+        {% for section in sections %}
+          {% if forloop.first == false %}
+            {% assign section_parts = section | split: '\n' %}
+            {% assign section_title = section_parts | first %}
+            {% assign section_content = section_parts | shift | join: '\n' %}
+            <div class="section">
+              <button type="button" class="collapsible">{{ section_title }}</button>
+              <div class="content">
+                {{ section_content | markdownify }}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
       <footer class="site-footer">
         {% if site.github.is_project_page %}
