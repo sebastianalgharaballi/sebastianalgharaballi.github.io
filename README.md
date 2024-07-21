@@ -1,4 +1,4 @@
-As a Machine Learning Engineer and Data Scientist, I blend creativity with analytical rigor to solve complex data-driven problems. My journey from a young storyteller and basketball enthusiast to a tech-savvy innovator has shaped my unique approach to data science. I'm passionate about creating and fine-tuning ML and AI models, leveraging data for decision-making, and applying these tools to projects that align with my diverse interests. Currently honing my skills as a Data Science Master's student at UC Irvine and as a Machine Learning Engineer at MoodMe, I thrive on challenges that allow me to efficiently solve problems from the ground up, always infusing my work with the same creativity and precision that has driven me since childhood.
+As a Machine Learning Engineer and Data Scientist, I blend creativity with analytical rigor and precision to solve complex data-driven problems. My journey from a young storyteller and basketball enthusiast to a tech-savvy innovator has shaped my unique approach to data science. I'm passionate about creating and fine-tuning ML and AI models, leveraging data for decision-making, and applying these tools to projects that align with my diverse interests. Currently honing my skills as a Data Science Master's student at UC Irvine and as a Machine Learning Engineer at MoodMe, I thrive on challenges that allow me to efficiently solve problems from the ground up, always infusing my work with the same creativity and precision that has driven me since childhood.
 
 ### Education
 
@@ -21,13 +21,26 @@ I started working for Scale AI as a freelance Gen AI Prompt Engineer in May 2024
 #### MoodMe - Machine Learning Engineer & Co-Founder (December 2023 - Present)
 The highlight of my Data Science career thusfar has been being named a Co-Founder and Machine Learning Engineer for MoodMe, an innovative start-up company that focuses on emotional intelligence products for a wide-range of industries. I led the creation and implementation of machine learning models for unbiased emotion detection applications. More specifically, I love to tell others about my experience with developing a customized text emotion detection model (powered by a tuned version of Hugging Face's BERT) that would go on to be the backbone of our well-being diary application that helps users track and understand their emotional patterns over time. I also conducted a comprehensive benchmark of the company's face emotion, gender, age, and ethnicity detection models versus its competitors, and leveraged my analysis to enhance the in-house emotion model through techniques such as transfer learning and noise injection. This led to an immediate increase in performance across all platforms the model was deployed on!
 
-<div style="text-align: center; margin-top: 20px;">
-  <a href="MoodMe Benchmarks Jan 2024.pptx-4.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #0366d6; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px;">
-    View Competitive Analysis Presentation
-  </a>
-  <a href="https://www.mood-me.com" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
-    Visit MoodMe Website
-  </a>
+<div align="center" style="margin-top: 20px;">
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      width: 120px;
+      background-color: #7cb9e8;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 5px;
+    }
+    .btn:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+  <a href="MoodMe Benchmarks Jan 2024.pptx-4.pdf" class="btn">View Competitive Analysis Presentation</a>
+  <a href="https://www.mood-me.com" class="btn">Visit MoodMe Website</a>
 </div>
 
 #### Donald Bren School of ICS - Master of Data Science Ambassador 
