@@ -25,17 +25,15 @@
     </header>
     <main id="content" class="main-content" role="main">
       <div class="profile-section">
-        <div class="profile-image">
-          <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow">
-          <p>Let's talk!</p>
-          <div class="profile-links">
-            <a href="#" class="btn">LinkedIn</a>
-            <a href="#" class="btn">Resume</a>
-          </div>
+        <img src="https://avatars.githubusercontent.com/u/95605946?v=4" alt="Sebastian Algharaballi-Yanow" class="profile-image">
+        <p>Let's talk!</p>
+        <div class="profile-links">
+          <a href="#" class="btn">LinkedIn</a>
+          <a href="#" class="btn">Resume</a>
         </div>
-        <div class="intro-text">
-          {{ content }}
-        </div>
+      </div>
+      <div class="intro-text">
+        {{ content }}
       </div>
       <footer class="site-footer">
         {% if site.github.is_project_page %}
