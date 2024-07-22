@@ -59,7 +59,7 @@ The highlight of my Data Science career thusfar has been being named a Co-Founde
 #### **Donald Bren School of ICS - Master of Data Science Ambassador (October 2023 - Present)**
 Throughout my time at UC Irvine, I worked as a Master of Data Science Ambassador for the MDS program. A perfect way to describe this role is "being a liaison for the current student." I supported the creation and development of ideas for marketing campaigns, answered questions from prospective students, and conducted internal analyses with my program director and fellow ambassadors. For example, I performed a time series analysis using R's `forecast` library and Python's `statsmodels` to track and predict trends in data science master's programs across the United States. I also completed a project that examined custom metrics across various tech-centric master's programs, such as transparency and flexibility scores, to determine where UC Irvine's MDS places amongst other programs. All bias aside, we were constantly ranked at the top of all my tests!
 
-**Key Skills:** Time Series Analysis, R Programming, Python Programming, Data Visualization, Market Research, Program Analysis, Communication, Student Outreach
+**Key Skills:** Time Series Analysis, R Programming, Python Programming, Data Visualization, Market Research, Program Analysis, Communication, Student Outreach, Leadership, Teamwork
 
 <div align="center">
   <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
@@ -103,6 +103,8 @@ My first professional breakthrough into the world of data came at Sportradar. My
 
 Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant, I embarked on a data science journey to analyze his legendary 2008-2009 NBA season. This project wasn't just about numbers; it was about understanding the **heart and soul of a champion** through data. I developed a **custom autoencoder deep learning algorithm** using **PyTorch**, designed to detect statistical anomalies in Kobe's game-by-game performance. The model processed **20 advanced basketball metrics** across 100 games, including both regular season and playoffs. By implementing **Min-Max scaling** and carefully structuring the **neural network architecture** with ReLU and sigmoid activation functions, I created a strong system capable of capturing the nuances of Kobe's play. The autoencoder achieved **100% accuracy in identifying performance outliers**, effectively distinguishing between Kobe's average games and those spectacular moments that defined his career. This project not only showcased my technical skills in **deep learning** and **anomaly detection** but also demonstrated my ability to blend passion with precision – a trait I carry from Kobe's influence into every aspect of my data science work.
 
+**Key Skills:** Deep Learning, PyTorch, Autoencoder Architecture, Anomaly Detection, Data Preprocessing, Min-Max Scaling, Neural Network Design, Sports Analytics
+
 <div align="center" style="margin-top: 20px;">
   <style>
     .btn {
@@ -132,6 +134,8 @@ Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant,
 
 Growing up, I was captivated by the fast-paced excitement of NBA games, but I often found myself puzzled by controversial calls that seemed to shift the momentum unfairly. This curiosity about the human element in officiating sparked a data-driven quest to unravel the complexities of referee decision-making. Once again channeling my **passions for basketball and data science**, I embarked this project to analyze NBA referee patterns using **advanced neural networks**. I engineered a data frame with **over 30,000** datapoints that captured the precise statistics of 47 experienced referees across all 30 NBA teams, which included the referees’ total games officiated for each team, win/loss percentages, average points, free throw attempts, personal, offensive, and shooting fouls, and statistics for the opponents that each team faced. This dataset became the foundation for my deep learning exploration, where I implemented **three feed-forward neural networks (FNNs)** and, most innovatively, a **1D convolutional neural network (CNN)**. The CNN's remarkable **92% test accuracy** not only validated my approach but also opened new avenues for enhancing the fairness and integrity of the sport I love. As a whole, I successfully contributed to a future where technology and human judgment work in harmony, ensuring every whistle blown is as fair as the game itself.
 
+**Key Skills:** Neural Network Development, Convolutional Neural Networks (CNN), Feed-Forward Neural Networks (FNN), Data Engineering, Large Dataset Handling, Sports Data Analysis, Model Comparison, Test Accuracy Optimization
+
 <div align="center" style="margin-top: 20px;">
   <style>
     .btn {
@@ -153,14 +157,15 @@ Growing up, I was captivated by the fast-paced excitement of NBA games, but I of
       background-color: #5a9bd5;
     }
   </style>
-  <a href="Kobe_Paper-2.pdf" class="btn">Project Research Paper</a>
-  <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn">Project GitHub Link</a>
+  <a href="RefereeDisparityPaper.pdf" class="btn">Project Research Paper</a>
+  <a href="https://github.com/sebastianalgharaballi/NBARefereeProject" class="btn">Project GitHub Link</a>
 </div>
 
 #### Predicting CCRB's Outcome on Civilian Complaints
-- Addressed predicting officer remediation amid the complexity of police misconduct complaints.
-- Extracted pivotal data features using the "Eli5" Python library, directing focus on variables affecting disciplinary outcomes. Developed and evaluated logistic regression, K-NN, Random Forests, and Gradient Boosting models (using F1-score).
-- Unveiled logistic regression as the optimum predictive algorithm, enabling accurate forecasts of officer remediation outcomes.
+
+During my final year at UCSD, I collaborated with three classmates on a project addressing police accountability in New York City. We developed a predictive system for civilian complaint outcomes against NYPD officers, utilizing a dataset of 279,645 unique complaints from the NYPD Misconduct Complaint Database. Our work involved extensive **feature engineering**, transforming raw data into meaningful predictors and addressing the significant challenge of imbalanced classes in our target variable `CCRBDisposition`. We implemented and precisely compared four machine learning models: **logistic regression, K-Nearest Neighbors, Random Forests, and Gradient Boosting**. To gain deeper insights into the factors influencing CCRB decisions, we employed the **Eli5 Python library** for feature importance analysis. This process revealed key predictors such as the officer's status, gender, allegation type, and contact outcome. After complete evaluation using **F1-scores**, **precision**, and **recall** metrics, logistic regression emerged as the optimal algorithm, achieving a remarkable **97.3% F1-score**. This project not only enhanced our practical data science skills but also contributed importance insights to the ongoing dialogue about leveraging technology to improve transparency and accountability in law enforcement practices.
+
+**Key Skills:** Machine Learning, Feature Engineering, Imbalanced Data Handling, Model Comparison, Logistic Regression, K-Nearest Neighbors, Random Forests, Gradient Boosting, Feature Importance Analysis (Eli5), Evaluation Metrics (F1-score, Precision, Recall), Teamwork, Collaborative Problem-Solving, Data-Driven Decision Making
 
 #### R Case Study
 - Investigated the prevailing trends in tobacco usage among American youth.
