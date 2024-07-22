@@ -21,6 +21,8 @@ I'm currently attending UC Irvine in their Master's of Data Science program. I w
 #### **Scale AI - Generative Artificial Intelligence Prompt Engineer (May 2024 - Present)**
 I started working for Scale AI as a freelance Gen AI Prompt Engineer in May 2024. My day-to-day work consists of editing, refining, and training open-source large language model (LLM) responses to enhance accuracy and coherence in real-time conversations. I've also had the opportunity to apply regression modeling to predict user satisfaction scores on a five-star scale from various conversation metrics, such as the overall sentiment of prompts given to the LLM. My favorite impactful moment at Scale was when I worked directly wiht OpenAI to analyze conversational datasets taken from real-world conversations their users had with ChatGPT. I leveraged clustering techniques, such as K-means and Hierarchical Agglomerative Clustering (HAC), to identify user patterns like query complexity, topic preferences, and interaction frequency. As a whole, the strategies I deployed informed GPT-model adjustments and improved response relevancy, generating new training data that will aid in improving future iterations of ChatGPT.
 
+**Key Skills:** LLM Prompt Engineering, Regression Modeling, Sentiment Analysis, Clustering Techniques (K-means, HAC), Data Analysis, Machine Learning, Natural Language Processing
+
 <div align="center">
   <img src="scale_logo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
 </div>
@@ -28,9 +30,7 @@ I started working for Scale AI as a freelance Gen AI Prompt Engineer in May 2024
 #### **MoodMe - Machine Learning Engineer & Co-Founder (December 2023 - Present)**
 The highlight of my Data Science career thusfar has been being named a Co-Founder and Machine Learning Engineer for MoodMe, an innovative start-up company that focuses on emotional intelligence products for a wide-range of industries. I led the creation and implementation of machine learning models for unbiased emotion detection applications. More specifically, I love to tell others about my experience with developing a customized text emotion detection model (powered by a tuned version of Hugging Face's BERT) that would go on to be the backbone of our well-being diary application that helps users track and understand their emotional patterns over time. I also conducted a comprehensive benchmark of the company's face emotion, gender, age, and ethnicity detection models versus its competitors, and leveraged my analysis to enhance the in-house emotion model through techniques such as transfer learning and noise injection. This led to an immediate increase in performance across all platforms the model was deployed on!
 
-<div align="center">
-  <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
-</div>
+**Key Skills:** Machine Learning Model Development, BERT Fine-tuning, Emotion Detection, Benchmarking, Transfer Learning, Noise Injection, Computer Vision, Natural Language Processing
 
 <div align="center" style="margin-top: 20px;">
   <style>
@@ -59,6 +59,12 @@ The highlight of my Data Science career thusfar has been being named a Co-Founde
 
 #### **Donald Bren School of ICS - Master of Data Science Ambassador (October 2023 - Present)**
 Throughout my time at UC Irvine, I worked as a Master of Data Science Ambassador for the MDS program. A perfect way to describe this role is "being a liaison for the current student." I supported the creation and development of ideas for marketing campaigns, answered questions from prospective students, and conducted internal analyses with my program director and fellow ambassadors. For example, I performed a time series analysis using R's `forecast` library and Python's `statsmodels` to track and predict trends in data science master's programs across the United States. I also completed a project that examined custom metrics across various tech-centric master's programs, such as transparency and flexibility scores, to determine where UC Irvine's MDS places amongst other programs. All bias aside, we were constantly ranked at the top of all my tests!
+
+**Key Skills:** Time Series Analysis, R Programming, Python Programming, Data Visualization, Market Research, Program Analysis, Communication, Student Outreach
+
+<div align="center">
+  <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
 
 <div align="center" style="margin-top: 20px;">
   <style>
@@ -90,7 +96,7 @@ September 2022 - Present
 - Communicated with supervisor on-site regarding the specifics of data.
 - Successfully operated 230+ games with 5-star performance.
 
-### Featured Data Science Projects (will add visualizations to this section)
+### Projects
 #### Autoencoder Anomaly Analysis for NBA Players:
 - Delved deeper into understanding the fluctuations in NBA player game-to-game performances, particularly focusing on Kobe Bryant's 2008-2009 season.
 - Created an autoencoder model in an effort to uncover any non-linear relationships and nuances indicative of performance trends.
