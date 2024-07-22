@@ -47,6 +47,7 @@ body, html {
 }
 .profile-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   margin-top: 1rem;
@@ -54,6 +55,8 @@ body, html {
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
+  min-width: 80px;
+  max-width: 100%;
   background-color: #7cb9e8;
   color: white;
   text-decoration: none;
@@ -61,6 +64,9 @@ body, html {
   transition: background-color 0.3s ease;
   text-align: center;
   font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .btn:hover {
   background-color: #5a9bd5;
@@ -150,5 +156,15 @@ body, html {
 @media screen and (max-width: 42em) {
   .project-name, .header-step h2 {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .profile-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .btn {
+    width: 100%;
   }
 }
