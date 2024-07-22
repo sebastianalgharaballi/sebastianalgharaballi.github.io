@@ -198,7 +198,7 @@ During my final year at UCSD, I collaborated with three classmates on a project 
       background-color: #5a9bd5;
     }
   </style>
-  <a href="Kobe_Paper-2.pdf" class="btn">Project Report</a>
+  <a href="CCRB_Proj_Report.html" class="btn">Project Report</a>
   <a href="https://github.com/COGS118A/Group015-Wi23" class="btn">Project GitHub Link</a>
 </div>
 
