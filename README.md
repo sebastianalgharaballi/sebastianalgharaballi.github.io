@@ -173,8 +173,33 @@ During my final year at UCSD, I collaborated with three classmates on a project 
 **Key Skills:** Machine Learning, Feature Engineering, Imbalanced Data Handling, Model Comparison, Logistic Regression, K-Nearest Neighbors, Random Forests, Gradient Boosting, Feature Importance Analysis (Eli5), Evaluation Metrics (F1-score, Precision, Recall), Teamwork, Collaborative Problem-Solving, Data-Driven Decision Making
 
 <div align="center">
-  <img src="plot_NBA.png" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
-  <img src="plot_NBA2.png" alt="Description of image 2" width="250" style="display: inline-block; margin: 0 10px;">
+  <img src="ccrb_1.png" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+  <img src="ccrb_2.png" alt="Description of image 2" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
+
+<div align="center" style="margin-top: 20px;">
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      width: 180px;
+      background-color: #7cb9e8;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 5px;
+      white-space: normal;
+      line-height: 1.2;
+      vertical-align: top;
+    }
+    .btn:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+  <a href="Kobe_Paper-2.pdf" class="btn">Project Report</a>
+  <a href="https://github.com/COGS118A/Group015-Wi23" class="btn">Project GitHub Link</a>
 </div>
 
 #### R Case Study
