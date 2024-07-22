@@ -54,7 +54,31 @@ The highlight of my Data Science career thusfar has been being named a Co-Founde
 </div>
 
 #### Donald Bren School of ICS - Master of Data Science Ambassador (October 2023 - Present)
-Throughout my time at UC Irvine, I worked as a Master of Data Science Ambassador for the MDS program. A perfect way to describe this role is "being a liaison for the current student." I supported the creation and development of ideas for marketing campaigns, answered questions from prospective students, and conducted internal analyses with my program director and fellow ambassadors. For example, I performed a time series analysis using R's `forecast` library and Python's `statsmodels` to track and predict trends in data science master's programs across the United States. I also completed a project that examined custom metrics across various tech-centric master's programs, such as transparency and flexibility scores, to determine where UC Irvine's MDS places amongst other programs. All bias aside, we were constantly ranked at the top of all my tests! 
+Throughout my time at UC Irvine, I worked as a Master of Data Science Ambassador for the MDS program. A perfect way to describe this role is "being a liaison for the current student." I supported the creation and development of ideas for marketing campaigns, answered questions from prospective students, and conducted internal analyses with my program director and fellow ambassadors. For example, I performed a time series analysis using R's `forecast` library and Python's `statsmodels` to track and predict trends in data science master's programs across the United States. I also completed a project that examined custom metrics across various tech-centric master's programs, such as transparency and flexibility scores, to determine where UC Irvine's MDS places amongst other programs. All bias aside, we were constantly ranked at the top of all my tests!
+
+<div align="center" style="margin-top: 20px;">
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      width: 180px;
+      background-color: #7cb9e8;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 5px;
+      white-space: normal;
+      line-height: 1.2;
+      vertical-align: top;
+    }
+    .btn:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+  <a href="Additional Program Analysis.html" class="btn">View Program Analysis Project</a>
+</div>
 
 #### Sportradar US - Sports Data Operator 
 September 2022 - Present
