@@ -1,6 +1,5 @@
 ### About Me
 
-
 At heart, I’ve always been a creative storyteller. I have fond memories of being that kid in the classroom that could not wait for writing hour, a time during which I knew I could explore the greatest depths of my imagination and convey these thoughts on a piece of paper. Often being one of the quietest people in my classes, I truly valued writing as a place where I could simply be _me_ and express _my_ thoughts without my social fears becoming too overwhelming. My love for sports also manifested during this time. I started playing and analyzing the sport of basketball at the age of 8. The art of **precision** and **decision-making** is what ultimately got me interested in the game. I found it so fascinating how much repetitive practice it took to obtain a satisfactory level of accuracy in regards to shooting and making a basket. I also appreciated the managerial side of the sport, such as coaches having to pinpoint specific rotational decisions and playcalls, or owners having to manage a specific salary budget in order to create a balanced and well-put-together roster. As both a player and a fan, I adored this type of analysis, and it's something that has simply been a part of me ever since then. Last but not least, technology was a huge fascination I held as a child. I was that kid that begged his parents for the newest iPod and Nintendo DS that hit the market. Even though I was often met with a denial, I would endlessly research how these devices worked, what their unique features were, and why they were, in the eyes of a kid, simply revolutionary. I viewed these devices as items that would make mine and so many other lives easier and more enjoyable.
 
 Time went on and, before I knew it, it was time to embark on my collegiate journey and turn my passions into a career. However, I had no idea how to blend my interests into one entity. I eventually decided to take the “easy” way out and began my undergraduate years at UC San Diego as an English major. I quickly realized this was not for me, as that field did not encapsulate all of my passions and occupational goals in the long run. I felt like I was at a loss, until I discovered the fields of Cognitive Science and Data Science. I had finally found my niche. I could explore the cognition behind decision-making and why people think the way that they do. I would learn about the newest technologies like machine learning and artificial intelligence, and apply these tools to unique projects tailored towards my passions. And, arguably most important of all, I would continue to showcase my love for creativity and storytelling through my work. Graphical visualizations and analytical journals detailing my projects were only a couple of avenues that would take me back to being that kid who was eagerly waiting for writing hour in order to truly express himself. My undergraduate years are where I truly found myself, evidenced by how happy I was and how much I succeeded.
@@ -96,7 +95,7 @@ My first professional breakthrough into the world of data came at Sportradar. My
 **Key Skills:** Real-time Data Collection, Sports Analytics, Statistical Analysis, Mobile Application Proficiency, Attention to Detail, Performance Metrics, Multi-sport Expertise, Data Accuracy and Consistency
 
 <div align="center">
-  <img src="IMG_1056.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+  <img src="IMG_1056.JPG" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
 </div>
 
 ### Projects
@@ -130,9 +129,33 @@ Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant,
 </div>
 
 #### Advanced NBA Referee Analysis:
-- Explored decision-making patterns of NBA referees to enhance fairness and integrity of the sport. Aimed to identify areas where officiating can be optimized.
-- Engineered a 1410x23 data frame that utilized cleaned referee statistics. Created advanced neural network models (three FNNs and one CNN) for comprehensive analysis.
-- Obtained 92% test accuracy through innovative CNN application, confirming the effectiveness of the approach in identifying patterns and areas of improvement in referee standards.
+
+Growing up, I was captivated by the fast-paced excitement of NBA games, but I often found myself puzzled by controversial calls that seemed to shift the momentum unfairly. This curiosity about the human element in officiating sparked a data-driven quest to unravel the complexities of referee decision-making. Once again channeling my **passions for basketball and data science**, I embarked this project to analyze NBA referee patterns using **advanced neural networks**. I engineered a data frame with **over 30,000** datapoints that captured the precise statistics of 47 experienced referees across all 30 NBA teams, which included the referees’ total games officiated for each team, win/loss percentages, average points, free throw attempts, personal, offensive, and shooting fouls, and statistics for the opponents that each team faced. This dataset became the foundation for my deep learning exploration, where I implemented **three feed-forward neural networks (FNNs)** and, most innovatively, a **1D convolutional neural network (CNN)**. The CNN's remarkable **92% test accuracy** not only validated my approach but also opened new avenues for enhancing the fairness and integrity of the sport I love. As a whole, I successfully contributed to a future where technology and human judgment work in harmony, ensuring every whistle blown is as fair as the game itself.
+
+<div align="center" style="margin-top: 20px;">
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      width: 180px;
+      background-color: #7cb9e8;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 5px;
+      white-space: normal;
+      line-height: 1.2;
+      vertical-align: top;
+    }
+    .btn:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+  <a href="Kobe_Paper-2.pdf" class="btn">Project Research Paper</a>
+  <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn">Project GitHub Link</a>
+</div>
 
 #### Predicting CCRB's Outcome on Civilian Complaints
 - Addressed predicting officer remediation amid the complexity of police misconduct complaints.
