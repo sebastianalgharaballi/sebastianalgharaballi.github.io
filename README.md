@@ -28,6 +28,10 @@ I started working for Scale AI as a freelance Gen AI Prompt Engineer in May 2024
 #### **MoodMe - Machine Learning Engineer & Co-Founder (December 2023 - Present)**
 The highlight of my Data Science career thusfar has been being named a Co-Founder and Machine Learning Engineer for MoodMe, an innovative start-up company that focuses on emotional intelligence products for a wide-range of industries. I led the creation and implementation of machine learning models for unbiased emotion detection applications. More specifically, I love to tell others about my experience with developing a customized text emotion detection model (powered by a tuned version of Hugging Face's BERT) that would go on to be the backbone of our well-being diary application that helps users track and understand their emotional patterns over time. I also conducted a comprehensive benchmark of the company's face emotion, gender, age, and ethnicity detection models versus its competitors, and leveraged my analysis to enhance the in-house emotion model through techniques such as transfer learning and noise injection. This led to an immediate increase in performance across all platforms the model was deployed on!
 
+<div align="center">
+  <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
+
 <div align="center" style="margin-top: 20px;">
   <style>
     .btn {
