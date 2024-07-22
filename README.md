@@ -168,8 +168,13 @@ During my final year at UCSD, I collaborated with three classmates on a project 
 **Key Skills:** Machine Learning, Feature Engineering, Imbalanced Data Handling, Model Comparison, Logistic Regression, K-Nearest Neighbors, Random Forests, Gradient Boosting, Feature Importance Analysis (Eli5), Evaluation Metrics (F1-score, Precision, Recall), Teamwork, Collaborative Problem-Solving, Data-Driven Decision Making
 
 #### R Case Study
-- Investigated the prevailing trends in tobacco usage among American youth.
-- Wrangled/analyzed a comprehensive CDC dataset and produced multiple visualization models to illuminate detailed patterns in youth tobacco and e-cigarette usage.
-- Unveiled pivotal insights, such as the popularity of sweet-flavored vapes and a zero-sum relationship between e-cigarettes and traditional tobacco usage.
+In another project I completed at UCSD, my group and I explored the critical public health issue of tobacco usage among American youth. Our mission was to investigate the evolving landscape of tobacco and e-cigarette use among middle and high school students from a CDC dataset spanning from 2015-2019. With the power of the **R programming language**, we utilized several tools, including **tidyverse, dplyr, and ggplot2**, to clean, reshape, and visualize the data. Our analysis produced a series of illuminating visualizations that brought multiple trends to life (as seen below). One of our most striking findings was the surge in popularity of sweet-flavored vapes among youth. This discovery raised important questions about the marketing strategies of e-cigarette companies and their impact on young consumers. Additionally, we uncovered a **zero-sum relationship** between e-cigarette adoption and traditional tobacco use, suggesting that as vaping increased, conventional smoking declined proportionally. Our project also revealed gender disparities in tobacco use and highlighted the rise of specific brands like JUUL in the e-cigarette market. We also ensured the applicability of our findings by sampling data across different Primary Sampling Units (PSUs). Overall, this project deepened my understanding of how data science can inform public health policies, in addition to being a powerful demonstration of how R and statistical analysis can uncover substantial patterns in datasets with real-world implications, potentially influencing strategies to address youth tobacco use. The experience reinforced my passion for using data science to solve real-world problems and contribute to important societal discussions.
+
+<div align="center">
+  <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
+<div align="center">
+  <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+</div>
 
 ### Hobbies
