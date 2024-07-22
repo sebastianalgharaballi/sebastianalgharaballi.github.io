@@ -101,9 +101,33 @@ My first professional breakthrough into the world of data came at Sportradar. My
 
 ### Projects
 #### Autoencoder Anomaly Analysis for NBA Players:
-- Delved deeper into understanding the fluctuations in NBA player game-to-game performances, particularly focusing on Kobe Bryant's 2008-2009 season.
-- Created an autoencoder model in an effort to uncover any non-linear relationships and nuances indicative of performance trends.
-- Achieved 100% evaluation metrics (precision, recall, F1-score) when labeling Bryant's games as above or below average, potentially discovering factors that contributed to a range of performances. 
+
+Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant, I embarked on a data science journey to analyze his legendary 2008-2009 NBA season. This project wasn't just about numbers; it was about understanding the **heart and soul of a champion** through data. I developed a **custom autoencoder deep learning algorithm** using **PyTorch**, designed to detect statistical anomalies in Kobe's game-by-game performance. The model processed **20 advanced basketball metrics** across 100 games, including both regular season and playoffs. By implementing **Min-Max scaling** and carefully structuring the **neural network architecture** with ReLU and sigmoid activation functions, I created a strong system capable of capturing the nuances of Kobe's play. The autoencoder achieved **100% accuracy in identifying performance outliers**, effectively distinguishing between Kobe's average games and those spectacular moments that defined his career. This project not only showcased my technical skills in **deep learning** and **anomaly detection** but also demonstrated my ability to blend passion with precision – a trait I carry from Kobe's influence into every aspect of my data science work.
+
+<div align="center" style="margin-top: 20px;">
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      width: 180px;
+      background-color: #7cb9e8;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 5px;
+      white-space: normal;
+      line-height: 1.2;
+      vertical-align: top;
+    }
+    .btn:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+  <a href="MoodMe Benchmarks Jan 2024.pptx-4.pdf" class="btn">Project Research Paper</a>
+  <a href="https://www.mood-me.com" class="btn">Project GitHub Link</a>
+</div>
 
 #### Advanced NBA Referee Analysis:
 - Explored decision-making patterns of NBA referees to enhance fairness and integrity of the sport. Aimed to identify areas where officiating can be optimized.
