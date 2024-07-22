@@ -125,8 +125,8 @@ Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant,
       background-color: #5a9bd5;
     }
   </style>
-  <a href="MoodMe Benchmarks Jan 2024.pptx-4.pdf" class="btn">Project Research Paper</a>
-  <a href="https://www.mood-me.com" class="btn">Project GitHub Link</a>
+  <a href="Kobe_Paper-2.pdf" class="btn">Project Research Paper</a>
+  <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn">Project GitHub Link</a>
 </div>
 
 #### Advanced NBA Referee Analysis:
