@@ -116,3 +116,5 @@ September 2022 - Present
 - Investigated the prevailing trends in tobacco usage among American youth.
 - Wrangled/analyzed a comprehensive CDC dataset and produced multiple visualization models to illuminate detailed patterns in youth tobacco and e-cigarette usage.
 - Unveiled pivotal insights, such as the popularity of sweet-flavored vapes and a zero-sum relationship between e-cigarettes and traditional tobacco usage.
+
+### Hobbies
