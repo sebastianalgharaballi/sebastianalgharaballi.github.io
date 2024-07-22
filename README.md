@@ -93,8 +93,10 @@ Throughout my time at UC Irvine, I worked as a Master of Data Science Ambassador
 #### **Sportradar US - Sports Data Operator (September 2022 - Present)** 
 My first professional breakthrough into the world of data came at Sportradar. My role consisted of attending various NCAA and professional sporting events, such as men's and women's basketball, baseball, men's and women's volleyball, and men's and women's soccer. At each match, I would take advanced game-related statistics on my iPad using the company's mobile application. Throughout my two years as a Data Operator, I've successfully completed 230+ games with 5-star performance. I will forever hold this position close to my heart, as it provided my first glimpse into the dynamic world of sports data and solidified my passion for data science, while allowing me to professionally combine my love for both data and sports.
 
+**Key Skills:** Real-time Data Collection, Sports Analytics, Statistical Analysis, Mobile Application Proficiency, Attention to Detail, Performance Metrics, Multi-sport Expertise, Data Accuracy and Consistency
+
 <div align="center">
-  <img src="ambassador_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
+  <img src="IMG_1056.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
 </div>
 
 ### Projects
