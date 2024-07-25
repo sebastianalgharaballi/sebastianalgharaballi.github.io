@@ -236,5 +236,5 @@ Investigating the critical public health issue of tobacco usage among American y
       background-color: #5a9bd5;
     }
   </style>
-  <a href="https://htmlpreview.github.io/?https://github.com/sebastianalgharaballi/RProjects/blob/main/cs02.html" class="btn">Project Report</a>
+  <a href="https://htmlpreview.github.io/?https://github.com/sebastianalgharaballi/RProjects/blob/main/cs02.html" class="btn" target="_blank" rel="noopener noreferrer">Project Report</a>
 </div>
