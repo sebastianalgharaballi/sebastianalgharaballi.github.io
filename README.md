@@ -54,8 +54,8 @@ Revolutionizing emotional intelligence products across industries, I co-founded 
       background-color: #5a9bd5;
     }
   </style>
-  <a href="MoodMe Benchmarks Jan 2024.pptx-4.pdf" class="btn">View Competitive Analysis Presentation</a>
-  <a href="https://www.mood-me.com" class="btn">Visit MoodMe Website</a>
+  <a href="MoodMe Benchmarks Jan 2024.pptx-4.pdf" class="btn" target="_blank" rel="noopener noreferrer">View Competitive Analysis Presentation</a>
+  <a href="https://www.mood-me.com" class="btn" target="_blank" rel="noopener noreferrer">Visit MoodMe Website</a>
 </div>
 
 #### **Donald Bren School of ICS - Master of Data Science Ambassador (October 2023 - Present)**
@@ -88,7 +88,7 @@ Bridging the gap between prospective students and the Master of Data Science pro
       background-color: #5a9bd5;
     }
   </style>
-  <a href="Additional Program Analysis.html" class="btn">View Program Analysis Project</a>
+  <a href="Additional Program Analysis.html" class="btn" target="_blank" rel="noopener noreferrer">View Program Analysis Project</a>
 </div>
 
 #### **Sportradar US - Sports Data Operator (September 2022 - Present)**
@@ -128,8 +128,8 @@ Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant,
       background-color: #5a9bd5;
     }
   </style>
-  <a href="Kobe_Paper-2.pdf" class="btn">Project Research Paper</a>
-  <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn">Project GitHub Link</a>
+  <a href="Kobe_Paper-2.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Research Paper</a>
+  <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn" target="_blank" rel="noopener noreferrer">Project GitHub Link</a>
 </div>
 
 #### Advanced NBA Referee Analysis:
@@ -164,8 +164,8 @@ Growing up, I was captivated by the fast-paced excitement of NBA games, but I of
       background-color: #5a9bd5;
     }
   </style>
-  <a href="RefereeDisparityPaper.pdf" class="btn">Project Research Paper</a>
-  <a href="https://github.com/sebastianalgharaballi/NBARefereeProject" class="btn">Project GitHub Link</a>
+  <a href="RefereeDisparityPaper.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Research Paper</a>
+  <a href="https://github.com/sebastianalgharaballi/NBARefereeProject" class="btn" target="_blank" rel="noopener noreferrer">Project GitHub Link</a>
 </div>
 
 #### Predicting CCRB's Outcome on Civilian Complaints
@@ -201,8 +201,8 @@ Contributing important insights to the ongoing dialogue about leveraging technol
       background-color: #5a9bd5;
     }
   </style>
-  <a href="CCRB_Proj_Report.html" class="btn">Project Report</a>
-  <a href="https://github.com/COGS118A/Group015-Wi23" class="btn">Project GitHub Link</a>
+  <a href="CCRB_Proj_Report.html" class="btn" target="_blank" rel="noopener noreferrer">Project Report</a>
+  <a href="https://github.com/COGS118A/Group015-Wi23" class="btn" target="_blank" rel="noopener noreferrer">Project GitHub Link</a>
 </div>
 
 #### R Case Study
