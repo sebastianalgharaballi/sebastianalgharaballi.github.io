@@ -28,8 +28,8 @@ Enhancing real-time conversation accuracy and coherence, I joined Scale AI as a 
   <img src="scale_logo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
 </div>
 
-#### **MoodMe - Machine Learning Engineer & Co-Founder (December 2023 - Present):**
-Revolutionizing emotional intelligence products across industries, I co-founded MoodMe and led the creation of unbiased emotion detection applications. I developed a groundbreaking text emotion detection model, powered by a fine-tuned version of Hugging Face's BERT, which became the backbone of our well-being diary application. This innovative tool helps users track and understand their emotional patterns over time, potentially improving mental health outcomes. Through comprehensive benchmarking and analysis, I enhanced our in-house emotion models using transfer learning and noise injection techniques. These improvements led to an immediate performance boost across all deployment platforms, solidifying MoodMe's position in the emotional AI market.
+#### **MoodMe - Machine Learning Engineer & Co-Founder (December 2023 - September 2024):**
+Revolutionizing emotional intelligence products across industries, I co-founded MoodMe and led the creation of unbiased emotion detection applications. I developed a novel text emotion detection model, powered by a fine-tuned version of Hugging Face's BERT, which became the backbone of our well-being diary application. This tool helps users track and understand their emotional patterns over time, potentially improving mental health outcomes. Through comprehensive benchmarking and analysis, I enhanced our in-house emotion models using transfer learning and noise injection techniques. These improvements led to an immediate performance boost across all deployment platforms, solidifying MoodMe's position in the emotional AI market.
 
 **Tech Stack:** Machine Learning Model Development, BERT Fine-tuning, Emotion Detection, Benchmarking, Transfer Learning, Noise Injection, Computer Vision, Natural Language Processing
 
