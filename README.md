@@ -101,6 +101,37 @@ As a Sports Data Operator for Sportradar, I've attended and recorded game-relate
 </div>
 
 ### Projects
+#### **Natural Language Financial Analytics on CEO Communication:**
+
+I created this project to explore the relevant and hidden connections between CEO communication styles and financial performance. By diving deep into earnings call transcripts, I sought to unravel the subtle ways in which the words of leaders shape the trajectory of their companies. With the assistance of **natural language processing** and **machine learning**, I developed a comprehensive analysis pipeline that transformed raw text into meaningful numeric representations using text-to-numeric conversion (**TF-IDF**) and singular value decomposition (**SVD**). Through **correlation analysis** and **sentiment analysis**, I uncovered intriguing industry-specific relationships between the sentiments expressed in earnings calls and key financial metrics for companies like Apple and Lululemon. While no strong evidence of short-term causality emerged, the project highlighted distinct correlation patterns between sentiment and financial performance for the two companies. By emphasizing the importance of context-aware financial analysis, this project demonstrated how the impact of human communication on financial metrics can vary significantly across different corporate landscapes, and showed the profound influence of language on the pulse of the business world.
+
+**Tech Stack:** Natural Language Processing (NLP), Machine Learning (ML), Text Preprocessing, Text-to-Numeric Conversion, TF-IDF, Singular Value Decomposition (SVD), Correlation Analysis, Sentiment Analysis, Statistical Testing, Data Visualization
+
+<div align="center" style="margin-top: 20px;">
+  <style>
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      width: 180px;
+      background-color: #7cb9e8;
+      color: white !important;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      margin: 0 5px;
+      white-space: normal;
+      line-height: 1.2;
+      vertical-align: top;
+    }
+    .btn:hover {
+      background-color: #5a9bd5;
+    }
+  </style>
+  <a href="Kobe_Paper-2.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Research Paper</a>
+  <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn" target="_blank" rel="noopener noreferrer">Project GitHub Link</a>
+</div>
+
 #### **Autoencoder Anomaly Analysis for NBA Players:**
 
 Inspired by the **Mamba Mentality** of my all-time favorite player, Kobe Bryant, I completed this project to analyze his legendary 2008-2009 NBA season. This project wasn't just about numbers; it was about understanding the **heart of a champion** through data. I developed a **custom autoencoder deep learning algorithm** using **PyTorch**, designed to detect statistical anomalies in Kobe's game-by-game performance. The model processed **20 advanced basketball metrics** across 100 games, including both regular season and playoffs. By implementing **Min-Max scaling** and carefully structuring the **neural network architecture** with ReLU and sigmoid activation functions, I created a strong system capable of capturing the nuances of Kobe's play. The autoencoder achieved **100% accuracy in identifying performance outliers**, effectively distinguishing between Kobe's average games and those spectacular moments that defined his career. This project not only showcased my technical skills in **deep learning** and **anomaly detection** but also demonstrated my ability to blend passion with precision – a trait I carry from Kobe's influence into every aspect of my data science work.
