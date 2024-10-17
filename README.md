@@ -19,7 +19,7 @@ I am currently pursuing a Master’s in Data Science at UC Irvine, set to gradua
 
 
 ### Experience
-#### **Scale AI - Generative Artificial Intelligence Prompt Engineer (May 2024 - Present):**
+#### **Scale AI - Generative Artificial Intelligence Prompt Engineer (April 2024 - Present):**
 I joined Scale AI as a freelance Gen AI Prompt Engineer in May 2024. By refining and training LLM responses, I've significantly improved the quality of AI-human interactions, boosting beta-specific satisfaction scores for a pre-release version of **ChatGPT O-1** from **3.6 to 4.67 out of 5**. Leveraging regression modeling, I predicted user satisfaction scores from various conversation metrics, providing insights into user experience and reducing AI hallucinations by **30%** across multiple models. My proudest achievement was collaborating with OpenAI to analyze real-world ChatGPT 4 conversations, processing over **3 million data points**. Applying clustering techniques like **K-means** and **Hierarchical Agglomerative Clustering (HAC)**, I identified crucial user patterns such as query complexity and topic preferences. These strategies, combined with reinforcement learning techniques using human feedback on nearly 500,000 interactions, improved response relevancy and empathy ratings from **61% to 83%**. As a result, average user session duration increased from **8 to 13.5 minutes** across testing platforms, directly contributing to the advancement of future ChatGPT iterations.
 
 **Tech Stack:** LLM Prompt Engineering, Regression Modeling, Sentiment Analysis, Clustering Techniques (K-means, HAC), Data Analysis, Machine Learning, Natural Language Processing
@@ -58,7 +58,7 @@ Revolutionizing emotional intelligence products across industries, I co-founded 
   <a href="https://www.mood-me.com" class="btn" target="_blank" rel="noopener noreferrer">Visit MoodMe Website</a>
 </div>
 
-#### **Donald Bren School of ICS - Master of Data Science Ambassador (October 2023 - Present):**
+#### **Donald Bren School of ICS - Master of Data Science Ambassador (October 2023 - December 2024):**
 As a Master of Data Science Ambassador for UC Irvine's Donald Bren School of Information and Computer Sciences, I connected prospective students with the program and served as an analyst. I contributed to marketing campaigns, provided insights to potential students, and conducted internal analyses with program directors. Using R's `forecast` library and Python's `statsmodels`, I performed time series analysis to track and predict trends in data science master's programs across the U.S. This analysis confirmed UCI's MDS as a top program in the country and identified growth areas, **informing curriculum and operational updates that increased program relevance in national rankings such as Forbes**. My project examining custom metrics across tech-centric master's programs, including transparency and flexibility scores, consistently ranked UC Irvine's MDS at the top, reinforcing its competitive edge in the field.
 
 **Tech Stack:** Time Series Analysis, R Programming, Python Programming, Data Visualization, Market Research, Program Analysis, Communication, Student Outreach, Leadership, Teamwork
@@ -91,7 +91,7 @@ As a Master of Data Science Ambassador for UC Irvine's Donald Bren School of Inf
   <a href="Additional Program Analysis.html" class="btn" target="_blank" rel="noopener noreferrer">View Program Analysis Project</a>
 </div>
 
-#### **Sportradar US - Sports Data Operator (September 2022 - Present):**
+#### **Sportradar US - Sports Data Operator (September 2022 - October 2024):**
 As a Sports Data Operator for Sportradar, I've attended and recorded game-related statistics for over 250 NCAA and professional sporting events across four different sports: basketball, baseball, volleyball, and soccer. Using the company's mobile application, I've captured advanced game-related statistics in real-time, improving my data collection skills in high-pressure environments. I also improved on-site data collection efficiency by suggesting a UI modification within the basketball play-by-play logging workflow, reducing average input time per play from **8 seconds to 3 seconds**. My performance has consistently earned 5-star ratings, which has placed me as a **top data operator in the United States**. This experience has solidified my commitment to data-driven decision making and demonstrated my ability to excel in **fast-paced, accuracy-critical environments**.
 
 **Tech Stack:** Real-time Data Collection, Sports Analytics, Statistical Analysis, Mobile Application Proficiency, Attention to Detail, Performance Metrics, Multi-sport Expertise, Data Accuracy and Consistency
