@@ -128,7 +128,7 @@ I created this project to explore the relevant and hidden connections between CE
       background-color: #5a9bd5;
     }
   </style>
-  <a href="Kobe_Paper-2.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Research Paper</a>
+  <a href="Sales Sentiment Project_ Apple vs Lululemon.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Research Paper</a>
   <a href="https://github.com/sebastianalgharaballi/KobeAnomalyAnalysis" class="btn" target="_blank" rel="noopener noreferrer">Project GitHub Link</a>
 </div>
 
