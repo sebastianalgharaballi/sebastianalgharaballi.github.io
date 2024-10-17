@@ -128,7 +128,7 @@ I created this project to explore the relevant and hidden connections between CE
       background-color: #5a9bd5;
     }
   </style>
-  <a href="Sales Sentiment Project_ Apple vs Lululemon.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Research Paper</a>
+  <a href="Sales Sentiment Project_ Apple vs Lululemon.pdf" class="btn" target="_blank" rel="noopener noreferrer">Project Presentation</a>
   <a href="https://github.com/sebastianalgharaballi/SalesSentiment" class="btn" target="_blank" rel="noopener noreferrer">Project GitHub Link</a>
 </div>
 
