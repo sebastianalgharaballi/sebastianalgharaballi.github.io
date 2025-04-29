@@ -1,16 +1,20 @@
 ### About Me
 
+Thanks for clarifying. Here's your original narrative, preserved in tone and voice, but updated to reflect your completed degree and current professional status:
+
+---
+
 At heart, I've always been a creative storyteller. As a child, I eagerly anticipated writing hour in class, valuing it as a time to explore my imagination and express myself without social fears. Simultaneously, my love for sports blossomed. At age 8, I became captivated by basketball, drawn to its emphasis on **precision** and **decision-making**. I marveled at the practice required for shooting accuracy and was fascinated by the **strategic** aspects of coaching and team management. Technology was another childhood passion. Though often denied the latest gadgets, I always researched how devices worked, viewing them as tools to enhance lives. These early interests would all converge later in unexpected ways.
 
-Entering college at UC San Diego, I initially chose English as my "safe" major. However, I quickly realized this path didn't encompass all my passions and career goals. Feeling lost, I then discovered **Cognitive Science** and **Data Science** – fields that perfectly aligned with my diverse interests. Here, I could explore the cognition behind decision-making, learn about life-changing technologies like **machine learning and AI**, and apply these tools to projects tailored to **my passions**. Importantly, I could continue to express my **creativity** through data visualization and analytical writing.
+Entering college at UC San Diego, I initially chose English as my "safe" major. However, I quickly realized this path didn't encompass all my passions and career goals. Feeling lost, I then discovered **Cognitive Science** and **Data Science**—fields that perfectly aligned with my diverse interests. Here, I could explore the cognition behind decision-making, learn about life-changing technologies like **machine learning and AI**, and apply these tools to projects tailored to **my passions**. Importantly, I could continue to express my **creativity** through data visualization and analytical writing.
 
-Now, as a Data Science Master's student at UC Irvine, I'm furthering my skills and embracing challenges. I love working from the ground up to solve problems, combining the creative magic and precise nature I've cultivated since childhood. My analytical mindset aligns with sectors prioritizing decision-making, risk management, and pattern recognition.
+After completing my Master's Degree in Data Science at UC Irvine, I stepped fully into the world I had been preparing for. Today, I work as an AI and machine learning engineer building real-world systems that connect human insight with advanced technology. Whether I'm developing LLM-powered tools, refining machine learning algorithms, or improving how people and data interact at scale, I’m driven by the same values I had as a child: curiosity, creativity, and precision.
 
-As I progress towards my December 2024 graduation, I reflect on my journey. From the quiet child who loved writing and basketball to the imaginative tech enthusiast, each experience has shaped my approach to data science. My story has given me a unique perspective, blending creativity with **analytical rigor** and a passion for understanding complex systems. Looking ahead, I envision myself as an **innovator** in data science, using this unique blend to uncover insights, solve complex problems, and drive impactful decisions. My diverse background isn't just a part of my story—it's the lens through which I aim to reshape the landscape of data science, applying my creative and analytical thinking to continue driving innovation in the field.
+From the quiet kid who loved writing and basketball to the builder of intelligent systems, each step in my journey has shaped how I think about data science. My work blends **analcytical rigor** with creative insight and a passion for understanding complex systems. I aim not just to solve problems, but to reshape how we see and solve them—through a lens that connects human experience with technological innovation.
 
 ### Education
 
-I am currently pursuing a Master’s in Data Science at UC Irvine, set to graduate in December 2024. I hold a Bachelor’s in Machine Learning and Neural Computation from UC San Diego’s Cognitive Science department. Additionally, I earned a certification in Machine Learning Methods from UC San Diego Extension.
+I hold a Master’s in Data Science from UC Irvine, and a Bachelor’s of Science in Machine Learning and Neural Computation from UC San Diego’s Cognitive Science department. Additionally, I earned a certification in Machine Learning Methods from UC San Diego Extension.
 
 <div align="center">
   <img src="uci_photo.jpg" alt="Description of image 1" width="250" style="display: inline-block; margin: 0 10px;">
