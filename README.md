@@ -1,9 +1,5 @@
 ### About Me
 
-Thanks for clarifying. Here's your original narrative, preserved in tone and voice, but updated to reflect your completed degree and current professional status:
-
----
-
 At heart, I've always been a creative storyteller. As a child, I eagerly anticipated writing hour in class, valuing it as a time to explore my imagination and express myself without social fears. Simultaneously, my love for sports blossomed. At age 8, I became captivated by basketball, drawn to its emphasis on **precision** and **decision-making**. I marveled at the practice required for shooting accuracy and was fascinated by the **strategic** aspects of coaching and team management. Technology was another childhood passion. Though often denied the latest gadgets, I always researched how devices worked, viewing them as tools to enhance lives. These early interests would all converge later in unexpected ways.
 
 Entering college at UC San Diego, I initially chose English as my "safe" major. However, I quickly realized this path didn't encompass all my passions and career goals. Feeling lost, I then discovered **Cognitive Science** and **Data Science**—fields that perfectly aligned with my diverse interests. Here, I could explore the cognition behind decision-making, learn about life-changing technologies like **machine learning and AI**, and apply these tools to projects tailored to **my passions**. Importantly, I could continue to express my **creativity** through data visualization and analytical writing.
