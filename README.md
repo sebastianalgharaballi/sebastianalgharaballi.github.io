@@ -6,7 +6,7 @@ Entering college at UC San Diego, I initially chose English as my "safe" major. 
 
 After completing my Master's Degree in Data Science at UC Irvine, I stepped fully into the world I had been preparing for. Today, I work as an AI and machine learning engineer building real-world systems that connect human insight with advanced technology. Whether I'm developing LLM-powered tools, refining machine learning algorithms, or improving how people and data interact at scale, I’m driven by the same values I had as a child: curiosity, creativity, and precision.
 
-From the quiet kid who loved writing and basketball to the builder of intelligent systems, each step in my journey has shaped how I think about data science. My work blends **analcytical rigor** with creative insight and a passion for understanding complex systems. I aim not just to solve problems, but to reshape how we see and solve them—through a lens that connects human experience with technological innovation.
+From the quiet kid who loved writing and basketball to the builder of intelligent systems, each step in my journey has shaped how I think about data science. My work blends **analytical rigor** with creative insight and a passion for understanding complex systems. I aim not just to solve problems, but to reshape how we see and solve them—through a lens that connects human experience with technological innovation.
 
 ### Education
 
