@@ -19,7 +19,7 @@ I hold a Master’s in Data Science from UC Irvine, and a Bachelor’s of Scienc
 
 
 ### Experience
-#### **Scale AI - Generative Artificial Intelligence Prompt Engineer (November 2024 - Present):**
+#### **Stealth Talent Solutions - AI/ML Engineer (November 2024 - Present):**
 
 More info coming soon!
 
